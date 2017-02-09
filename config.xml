@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.noteplus.android" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Note Plus</name>
+    <description>
+        Crie ou acesse suas anotações de qualquer lugar.
+    </description>
+    <author email="welker3101@gmail.com" href="">
+        Welker - Mobile and Web Developer
+    </author>
+    <content src="index.html"/>
+    <plugin name="cordova-plugin-whitelist" spec="1"/>
+    <access origin="*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="geo:*"/>
+    <platform name="android">
+        <allow-intent href="market:*"/>
+        <icon src="res/android/icon/logo.png" density="ldpi"/>
+        <icon src="res/android/icon/logo.png" density="mdpi"/>
+        <icon src="res/android/icon/logo.png" density="hdpi"/>
+        <icon src="res/android/icon/logo.png" density="xhdpi"/>
+        <icon src="res/android/icon/logo.png" density="xxhdpi"/>
+        <icon src="res/android/icon/logo.png" density="xxxhdpi"/>
+
+        <splash src="res/android/splash/splash.png" density="land-hdpi"/>
+        <splash src="res/android/splash/splash.png" density="land-ldpi"/>
+        <splash src="res/android/splash/splash.png" density="land-mdpi"/>
+        <splash src="res/android/splash/splash.png" density="land-xhdpi"/>
+        <splash src="res/android/splash/splash.png" density="port-hdpi"/>
+        <splash src="res/android/splash/splash.png" density="port-ldpi"/>
+        <splash src="res/android/splash/splash.png" density="port-mdpi"/>
+        <splash src="res/android/splash/splash.png" density="port-xhdpi"/>
+
+        <preference name="SplashScreenDelay" value="6000" />
+        <preference name="HeaderColor" value="#03a9f4" />
+        
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*"/>
+        <allow-intent href="itms-apps:*"/>
+    </platform>
+
+
+</widget>

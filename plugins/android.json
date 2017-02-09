@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.noteplus.android"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.noteplus.android"
+        },
+        "cordova-plugin-headercolor": {
+            "PACKAGE_NAME": "com.noteplus.android"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.noteplus.android"
+        }
+    },
+    "dependent_plugins": {}
+}
